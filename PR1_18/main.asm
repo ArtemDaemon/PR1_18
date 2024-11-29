@@ -113,6 +113,9 @@ main proc
     ; EAX = XY
     imul eax, xValue
 
+    ; EAX = 1 + XY
+    inc eax
+
     ; === Конвертация результата в строку ===
     push edi
     ;mov eax, 0                          ; Целая часть числа
